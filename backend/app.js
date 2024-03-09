@@ -3,7 +3,7 @@ const app = express();
 const cors = require('cors');
 const path= require('path')
 app.use(cors({
-    origin: ['http://localhost:3000'],
+    origin: ['https://e-commerce-0xde.onrender.com/'],
     methods: ["POST","GET"],
     credentials: true
 }
