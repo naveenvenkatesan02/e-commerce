@@ -15,7 +15,7 @@ function LoginPage() {
     e.preventDefault();
     axios.defaults.withCredentials = true;
     axios
-      .post("http://localhost:8000/api/v1/login", {
+      .post("https://e-commerce-api-l2gv.onrender.com/api/v1/login", {
         email,
         password,
       })

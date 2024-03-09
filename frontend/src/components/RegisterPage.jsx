@@ -15,7 +15,7 @@ const [password,setPassword] = useState("");
       setPassword("");
       setUsername("");
       setPhone("");
-      axios.post('http://localhost:8000/api/v1/user',{
+      axios.post('https://e-commerce-api-l2gv.onrender.com/api/v1/user',{
       username,
       password,
       email,
