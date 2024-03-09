@@ -1,0 +1,6 @@
+.product:hover{
+    width: 300px;
+    height: 350px;
+    box-shadow: 5px 5px 25px 2px #F3A847;
+    border:none
+}
